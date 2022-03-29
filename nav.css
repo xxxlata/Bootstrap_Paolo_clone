@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+
+a{
+    font-weight: lighter;
+    text-decoration: none;
+}
+nav{
+    background-color: #1d1d1d;
+}
+
+#nav-box{
+    width: 80%;
+}
+
+#language :first-child{
+    color:  #959595;
+}
+
+#language a{
+    color: #414141;
+    font-size: 1.2rem;
+}
+
+#language a:hover {
+    color: #959595;
+}
+
+#nav-logo{
+    margin-right: 3rem;
+}
+
+#nav-logo img{
+    width: 10rem;
+    height: 5rem;
+}
+
+#menu svg{
+    cursor: pointer;
+}
