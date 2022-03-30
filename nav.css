@@ -43,3 +43,13 @@ nav{
 #menu svg{
     cursor: pointer;
 }
+
+.menu-close-controler{
+    display: none;
+}
+
+.menu-open-controler:hover .menu-close-controler{
+    display: block;
+}
+
+
