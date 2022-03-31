@@ -40,15 +40,24 @@ nav{
     height: 5rem;
 }
 
-#menu svg{
+#menu i{
     cursor: pointer;
 }
 
 .menu-close-controler{
+    color: white;
+}
+
+.menu-open-controler{
+    color: white;
+    
+}
+
+.menu-close-controler i{
     display: none;
 }
 
-.menu-open-controler:hover .menu-close-controler{
+.menu-open-controler i:hover .menu-close-controler i{
     display: block;
 }
 
