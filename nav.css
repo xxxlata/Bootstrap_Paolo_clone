@@ -48,17 +48,18 @@ nav{
     color: white;
 }
 
-.menu-open-controler{
-    color: white;
-    
+.menu-controler{
+    color: white;    
 }
 
-.menu-close-controler i{
+#up{
     display: none;
 }
 
-.menu-open-controler i:hover .menu-close-controler i{
+.menu-controler:hover #up{
     display: block;
 }
 
-
+.menu-controler:hover #down{
+    display: none;
+}
